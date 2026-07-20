@@ -1,0 +1,45 @@
+{
+  "champion_name": "Model 1: Tuned Neural Network",
+  "feature_cols": [
+    "Recency",
+    "Frequency",
+    "ProductDiversity",
+    "AvgSpendPerTxn",
+    "Homeware_Pct",
+    "Stationery_Pct",
+    "Gadgets_Pct",
+    "Decorations_Pct",
+    "Kitchenware_Pct"
+  ],
+  "decision_threshold": 0.4974626240216126,
+  "test_metrics_default_threshold": {
+    "accuracy": 0.9861878453038674,
+    "precision": 0.9871794871794872,
+    "recall": 0.9506172839506173,
+    "f1": 0.9685534591194969
+  },
+  "test_metrics_tuned_threshold": {
+    "accuracy": 0.9861878453038674,
+    "precision": 0.9871794871794872,
+    "recall": 0.9506172839506173,
+    "f1": 0.9685534591194969
+  },
+  "test_confusion_matrix": [
+    [
+      280,
+      1
+    ],
+    [
+      4,
+      77
+    ]
+  ],
+  "test_roc_auc": 0.9985062167743068,
+  "grid_search_best_params": {
+    "alpha": 0.01,
+    "hidden_layer_sizes": [
+      32,
+      16
+    ]
+  }
+}

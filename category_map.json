@@ -1,0 +1,35 @@
+{
+  "Homeware": [
+    "HOME",
+    "MUG",
+    "CANDLE",
+    "LANTERN",
+    "CUSHION"
+  ],
+  "Stationery": [
+    "CARD",
+    "NOTEBOOK",
+    "PEN",
+    "PAPER",
+    "ENVELOPE"
+  ],
+  "Gadgets": [
+    "LIGHT",
+    "CLOCK",
+    "BATTERY",
+    "ALARM"
+  ],
+  "Decorations": [
+    "CHRISTMAS",
+    "DECORATION",
+    "BUNTING",
+    "GARLAND"
+  ],
+  "Kitchenware": [
+    "BAKING",
+    "CAKE",
+    "TIN",
+    "JAR",
+    "BOWL"
+  ]
+}

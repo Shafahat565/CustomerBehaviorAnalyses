@@ -1,0 +1,18 @@
+{
+  "champion_name": "Model 1 (MLPRegressor)",
+  "feature_cols": [
+    "Homeware_Pct",
+    "Stationery_Pct",
+    "Gadgets_Pct",
+    "Decorations_Pct",
+    "Kitchenware_Pct"
+  ],
+  "target_column": "NextQuarterSpend",
+  "used_synthetic_surrogate_target": false,
+  "test_metrics": {
+    "MSE": 3914391.9573777425,
+    "RMSE": 1978.4822358003983,
+    "MAE": 730.1309919098261,
+    "R2": 0.019466762777453295
+  }
+}

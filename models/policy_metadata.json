@@ -1,0 +1,49 @@
+{
+  "best_policy_on_test": "DQN (greedy)",
+  "policy_comparison_test_set": {
+    "Always Action 0 (No outreach)": {
+      "Total Reward (test)": 71007.0425,
+      "Avg Reward / Customer": 196.1521,
+      "Action 0 %": 100.0,
+      "Action 1 %": 0.0,
+      "Action 2 %": 0.0
+    },
+    "Always Action 2 (Phone call)": {
+      "Total Reward (test)": 175707.6063,
+      "Avg Reward / Customer": 485.3801,
+      "Action 0 %": 0.0,
+      "Action 1 %": 0.0,
+      "Action 2 %": 100.0
+    },
+    "Random": {
+      "Total Reward (test)": 127124.7654,
+      "Avg Reward / Customer": 351.1734,
+      "Action 0 %": 32.5967,
+      "Action 1 %": 34.2541,
+      "Action 2 %": 33.1492
+    },
+    "Tabular Q-Learning (greedy)": {
+      "Total Reward (test)": 174870.8653,
+      "Avg Reward / Customer": 483.0687,
+      "Action 0 %": 0.0,
+      "Action 1 %": 8.5635,
+      "Action 2 %": 91.4365
+    },
+    "DQN (greedy)": {
+      "Total Reward (test)": 176297.988,
+      "Avg Reward / Customer": 487.011,
+      "Action 0 %": 3.0387,
+      "Action 1 %": 0.2762,
+      "Action 2 %": 96.6851
+    }
+  },
+  "used_synthetic_reward_basis": false,
+  "n_clusters_tabular": 8,
+  "n_episodes_tabular": 500,
+  "n_episodes_dqn": 300,
+  "action_meanings": {
+    "0": "No outreach",
+    "1": "Email / small discount",
+    "2": "Phone call / large incentive"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "highvalue_threshold": 1754.9700000000007,
+  "pca_n_components": 5,
+  "category_columns": [
+    "Homeware_Pct",
+    "Stationery_Pct",
+    "Gadgets_Pct",
+    "Decorations_Pct",
+    "Kitchenware_Pct"
+  ]
+}
